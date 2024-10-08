@@ -9016,6 +9016,28 @@
 		)
 		(uuid "ff3d6fa6-6b0b-4e08-9704-7338f694087e")
 	)
+	(global_label "TX2-"
+		(shape input)
+		(at 246.38 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00e274bb-bd7b-4e5b-82d3-49bf65f5808b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.4358 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX1+"
 		(shape input)
 		(at 209.55 40.64 0)
@@ -9764,28 +9786,6 @@
 			)
 		)
 	)
-	(global_label "TX2-"
-		(shape input)
-		(at 246.38 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d5c2445-e6d1-42f6-a7db-bd560c40a5ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.4358 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "K4"
 		(shape input)
 		(at 62.23 167.64 180)
@@ -10002,28 +10002,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX2+"
-		(shape input)
-		(at 246.38 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "84e41e38-abae-4707-aa8a-5325373d4a0f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.4358 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10776,6 +10754,28 @@
 			)
 		)
 	)
+	(global_label "TX2+"
+		(shape input)
+		(at 246.38 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec8b6ce3-75ee-49ef-87ea-882005c9b0bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.4358 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX2-"
 		(shape input)
 		(at 66.04 102.87 0)
@@ -11038,7 +11038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 145.542 72.39 90)
 			(effects
 				(font
@@ -13724,7 +13724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 113.03 61.468 90)
 			(effects
 				(font
@@ -13793,7 +13793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 146.812 36.83 90)
 			(effects
 				(font
@@ -15471,7 +15471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 93.98 62.23 0)
 			(effects
 				(font
@@ -15540,7 +15540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 111.76 29.718 90)
 			(effects
 				(font
@@ -15609,7 +15609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 120.3452 76.2 0)
 			(effects
 				(font
@@ -15677,7 +15677,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical"
 			(at 95.25 30.48 0)
 			(effects
 				(font
@@ -16630,7 +16630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 120.3452 44.45 0)
 			(effects
 				(font
